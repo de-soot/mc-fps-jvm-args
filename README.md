@@ -10,5 +10,7 @@
 
 "-XX:ParallelGCThreads=4" - Tells the Java application (in this case, it's Minecraft) how many logical processors (threads) your CPU has; I have 4 threads so I set it to 4.
 
+// If you wish to learn more about how the JVM arguments below work (which I recommend), search them up on your internet browser.
+
 # The arguments (fitted to my system) :
 -XX:+UnlockExperimentalVMOptions -d64 -Xmx 2G -Xms 2G -XX:+UseParNewGC -XX:ParallelGCThreads=4 -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+AggressiveOpts -XX:+UseNUMA -XX:+UseBiasedLocking -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseFastAccessorMethods -XX:MaxGCPauseMillis=30  -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -XX:SoftRefLRUPolicyMSPerMB=4000 -XX:ReservedCodeCacheSize=1024m -XX:+OptimizeStringConcat -XX:+UseCodeCacheFlushing
