@@ -1,4 +1,4 @@
-# Read these first to customise the settings to suit your system :
+# Explanations to the arguments; read these first to customise the settings to suit your system :
 
 "-d64" - Makes Minecraft run as a 64-bit program; only use this if your operating system is 64-bit, otherwise remove this parameter.
 
