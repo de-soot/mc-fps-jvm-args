@@ -8,7 +8,7 @@
 
 "-XX:SoftRefLRUPolicyMSPerMB=4000" - Tells Minecraft how much milliseconds to use per MB of soft references. If you only allocated 1 GB to Minecraft, use 2000 instead; but since I allocated 2 GB, I use 4000.
 
-"-XX:ParallelGCThreads=4" - Sets it to the amount of logical processors (threads) your CPU has.
+"-XX:ParallelGCThreads=4" - Set it to the amount of logical processors (threads) your CPU has; I have 4 threads so I set it to 4.
 
 "-XX:+UseParNewGC" - A newer version of "-XX:+UseParallelGC"; GC stands for garbage collection.
 
