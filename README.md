@@ -1,5 +1,5 @@
 
-// If you do not know how to set your JVM arguments, there are many tutorials online.
+// If you do not know how to set your Minecraft JVM arguments, there are many tutorials online that show you how.
 
 # Read these first to customise the JVM arguments to suit your system :
 
