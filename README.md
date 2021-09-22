@@ -1,3 +1,5 @@
+If you do not know how to set your JVM arguments, there are many tutorials online.
+
 # Read these first to customise the JVM arguments to suit your system :
 
 "-d64" - Makes the Java application (in this case, it's Minecraft) run as a 64-bit program; only use this if your operating system is 64-bit, otherwise remove this parameter.
