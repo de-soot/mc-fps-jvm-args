@@ -1,7 +1,7 @@
 
 // If you do not know how to set your Minecraft JVM arguments, there are many tutorials online that show you how.
 
-// If there aren't any tutorials for your Minecraft launcher, poke around and you should find a text box labeled with something about JVM arguments.
+// If there aren't any tutorials for your Minecraft launcher, poke around in your launcher and you should find a text box labeled with something about JVM arguments.
 
 # Read these first to customise the JVM arguments to suit your system :
 
