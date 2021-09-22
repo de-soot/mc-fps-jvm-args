@@ -10,13 +10,15 @@
 
 "-XX:ParallelGCThreads=4" - Sets it to the amount of logical processors (threads) your CPU has.
 
-"-XX:+UseParNewGC" - A newer version of "-XX:+UseParallelGC".
+"-XX:+UseParNewGC" - A newer version of "-XX:+UseParallelGC"; GC stands for garbage collection.
 
 "XX:+AggressiveOpts" - Makes Minecraft use aggressive optimisation.
 
 "-XX:+OptimizeStringConcat" - Optimises concatenation on strings.
 
 "-XX:+CMSParallelRemarkEnabled" -Makes CMS remarking parallel to program execution.
+
+"XX:+UseConcMarkSweepGC" - Makes mark sweeping run concurrently (seperating work into different threads).
 
 # The arguments (fitted to my system) :
 -XX:+UnlockExperimentalVMOptions -d64 -Xmx 2G -Xms 2G -XX:+UseParNewGC -XX:ParallelGCThreads=4 -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+AggressiveOpts -XX:+UseNUMA -XX:+UseBiasedLocking -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseFastAccessorMethods -XX:MaxGCPauseMillis=30  -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -XX:SoftRefLRUPolicyMSPerMB=4000 -XX:ReservedCodeCacheSize=1024m -XX:+OptimizeStringConcat -XX:+UseCodeCacheFlushing
