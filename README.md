@@ -1,4 +1,4 @@
-# Read these first to customise the settings to suit your system :
+# Read these first to customise the arguments to suit your system :
 
 "-d64" - Makes the Java application (in this case, it's Minecraft) run as a 64-bit program; only use this if your operating system is 64-bit, otherwise remove this parameter.
 
