@@ -20,5 +20,7 @@
 
 "XX:+UseConcMarkSweepGC" - Makes mark sweeping run concurrently (seperating work into different threads).
 
+"-XX:+UseBiasedLocking" - When an "object" is "locked" by one thread, JVM can optimise it by giving "bias" to that thread so that there's no synchronisation cost when running atomic operations.
+
 # The arguments (fitted to my system) :
 -XX:+UnlockExperimentalVMOptions -d64 -Xmx 2G -Xms 2G -XX:+UseParNewGC -XX:ParallelGCThreads=4 -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+AggressiveOpts -XX:+UseNUMA -XX:+UseBiasedLocking -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseFastAccessorMethods -XX:MaxGCPauseMillis=30  -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -XX:SoftRefLRUPolicyMSPerMB=4000 -XX:ReservedCodeCacheSize=1024m -XX:+OptimizeStringConcat -XX:+UseCodeCacheFlushing
