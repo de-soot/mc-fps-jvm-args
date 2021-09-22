@@ -15,7 +15,7 @@
 
 "-XX:SoftRefLRUPolicyMSPerMB=4000" - Tells the Java application (in this case, it's Minecraft) how much milliseconds to use per MB of soft references. If you only allocated 1 GB to Minecraft, use 2000 instead; but since I allocated 2 GB, I use 4000.
 
-"-XX:ParallelGCThreads=4" - Tells the Java application (in this case, it's Minecraft) how many logical processors (threads) your CPU has; I have 4 threads so I set it to 4.
+"-XX:ParallelGCThreads=4" - Sets the maximum logical processors (threads) the Java application (in this case, it's Minecraft) can use; my CPU has 4 threads so I set it to 4.
 
 // If you wish to learn more about how the JVM arguments below work (which I recommend), search them up on your internet browser as I'm not qualified enough (yet) to explain them to you.
 
