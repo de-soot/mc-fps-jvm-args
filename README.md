@@ -5,9 +5,9 @@
 
 "-d64" - Makes the Java application (in this case, it's Minecraft) run as a 64-bit program, which allows it to use what your 64-bit OS has to offer; only use this if your operating system is 64-bit, otherwise remove this parameter.
 
-"-Xmx 6G" - Sets the maximum allocated RAM to 4 GB of RAM to the Java application (in this case, it's Minecraft) at launch; you should always leave at least 1 GB (2 GB is recommended) for your system.
+"-Xmx 4G" - Sets the maximum allocated RAM to 4 GB of RAM to the Java application (in this case, it's Minecraft) at launch; you should always leave at least 1 GB (2 GB is recommended) for your system.
 
-"-Xms 6G" - Sets the initial allocated RAM to 2 GB of RAM to the Java application (Minecraft) at launch; this value should be the same as the maximum allocated RAM to reduce amount of garbage collection the program has to do.
+"-Xms 2G" - Sets the initial allocated RAM to 2 GB of RAM to the Java application (Minecraft) at launch; this value should be the same as the maximum allocated RAM to reduce amount of garbage collection the program has to do.
 
 "-XX:ReservedCodeCacheSize=3072m" - Sets the cache size for reserved code that the Java application (in this case, it's Minecraft) might reuse. This should be half of the RAM allocated to Minecraft; in my case, I have allocated 6 GB (6144 MB) of RAM, so I will use 3072m (3 GB).
 
