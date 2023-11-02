@@ -16,4 +16,4 @@
 # Notes :
 - If it crashes, first try disabling Connected Textures in Minecraft's video settings before deleting any arguments.
 - Please keep in mind that some arguments may cause your client to crash depending on your PC specifications and you may have to experiment around with changing some values or even deleting some of them in order for it to work
-- I have seen the "-Xmn" argument being used in other Minecraft FPS boosting JVM arguments but I do not use it because by default, "-Xmn" is already selected internally according to your system's capability.
+- I have seen the "-Xmn" argument being used in other Minecraft FPS boosting JVM arguments but I do not use it because by default, "-Xmn" is already selected internally according to your system's capabilities.
