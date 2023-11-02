@@ -5,7 +5,7 @@
 
 "-d64" - Makes the Java application (in this case, it's Minecraft) run as a 64-bit program, which allows it to use what your 64-bit OS has to offer; only use this if your operating system is 64-bit, otherwise remove this parameter.
 
-"-Xmx 6G" - Sets the maximum allocated RAM to 6 GB of RAM to the Java application (in this case, it's Minecraft) at launch; you should always leave at least 1 GB (2 GB is recommended) for your system.
+"-Xmx 6G" - Sets the maximum allocated RAM to 6 GB of RAM to the Java application (in this case, it's Minecraft) at launch; you should always leave at least 1 GB left over (2 GB is recommended) for your system.
 
 "-Xms 6G" - Sets the initial allocated RAM to 6 GB of RAM to the Java application (Minecraft) at launch; this value should be the same as the maximum allocated RAM to reduce amount of garbage collection the program has to do.
 
