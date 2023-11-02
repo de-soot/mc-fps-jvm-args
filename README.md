@@ -16,3 +16,6 @@
 "-XX:SoftRefLRUPolicyMSPerMB=6000" - Tells the Java application (Minecraft) how much milliseconds to use per MB for soft references, or how long in miliseconds to keep the object in the heap after it was referenced. For example: since I allocated 6 GB and have 2 GB to spare, I'll use 6000. Feel free to experiment around with this value to get the best results.
 
 "-XX:ParallelGCThreads=12" - Sets the maximum logical processors (threads) the Java application (in this case, it's Minecraft) can use; my CPU has 12 threads, so I set it to 12.
+
+# Note :
+I have seen the "-Xmn" argument being used in other Minecraft FPS boosting JVM arguments but I do not use it because by default, "-Xmn" is already selected internally according to your system's capability.
