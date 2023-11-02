@@ -7,12 +7,12 @@
 
 "-d64" - Makes the Java application (in this case, it's Minecraft) run as a 64-bit program, which allows it to use what your 64-bit OS has to offer to its fullest potential; only use this if your operating system is 64-bit / x64 (not 32-bit / x86) - otherwise, remove this parameter.
 
-"-Xmx 6G" - Sets the maximum allocated RAM to 6 GB of RAM to the Java application (in this case, it's Minecraft) at launch; you should always leave at least 1 GB left over (2 GB is recommended, which is what I did for my 8 GB RAM PC) for your system.
+"-Xmx 6G" - Sets the maximum allocated RAM of the Java application (in this case, it's Minecraft) at launch; you should always leave at least 1 GB left over (2 GB is recommended, which is what I did for my 8 GB RAM PC) for your system.
 
-"-Xms 6G" - Sets the initial allocated RAM to 6 GB of RAM to the Java application (Minecraft) at launch; this value should be the same as the maximum allocated RAM to reduce amount of garbage collection the program has to do.
+"-Xms 6G" - Sets the initial allocated RAM of the Java application (Minecraft) at launch; this value should be the same as the maximum allocated RAM to reduce amount of garbage collection the program has to do.
 
 "-XX:ReservedCodeCacheSize=3072m" - Sets the cache size for reserved code that the Java application (in this case, it's Minecraft) might reuse. This should be half of the RAM allocated to Minecraft; in my case, I have allocated 6 GB (6144 MB) of RAM, so I will use 3072m (3 GB).
 
-"-XX:SoftRefLRUPolicyMSPerMB=6000" - Tells the Java application (Minecraft) how much milliseconds to use per MB of soft references. For example: if you have 1 GB to spare, use 2000; since I allocated 6 GB and have 2 GB to spare, I'll use 6000. Feel free to experiment with this value to get the best results.
+"-XX:SoftRefLRUPolicyMSPerMB=6000" - Tells the Java application (Minecraft) how much milliseconds to use per MB of soft references. For example: if you have 1 GB left to spare, use 2000; since I allocated 6 GB and have 2 GB to spare, I'll use 6000. Feel free to experiment around with this value to get the best results.
 
 "-XX:ParallelGCThreads=12" - Sets the maximum logical processors (threads) the Java application (in this case, it's Minecraft) can use; my CPU has 12 threads, so I set it to 12.
