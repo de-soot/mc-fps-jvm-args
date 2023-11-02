@@ -13,6 +13,6 @@
 
 "-XX:ReservedCodeCacheSize=3072m" - Sets the cache size for reserved code that the Java application (in this case, it's Minecraft) might reuse. This should be half of the RAM allocated to Minecraft; in my case, I have allocated 6 GB (6144 MB) of RAM, so I will use 3072m (3 GB).
 
-"-XX:SoftRefLRUPolicyMSPerMB=6000" - Tells the Java application (Minecraft) how much milliseconds to use per MB of soft references. For example: if you have 1 GB left to spare, use 2000; since I allocated 6 GB and have 2 GB to spare, I'll use 6000. Feel free to experiment around with this value to get the best results.
+"-XX:SoftRefLRUPolicyMSPerMB=6000" - Tells the Java application (Minecraft) how much milliseconds to use per MB of soft references. For example: since I allocated 6 GB and have 2 GB to spare, I'll use 6000. Feel free to experiment around with this value to get the best results.
 
 "-XX:ParallelGCThreads=12" - Sets the maximum logical processors (threads) the Java application (in this case, it's Minecraft) can use; my CPU has 12 threads, so I set it to 12.
