@@ -11,7 +11,7 @@
 
 - "-XX:ReservedCodeCacheSize=3072m" - Sets the cache size for reserved code that the Java application (in this case, it's Minecraft) might reuse. This should be half of the RAM allocated to Minecraft; in my case, I have allocated 6 GB (6144 MB) of RAM, so I will use 3072m (3 GB).
 
-- "-XX:ParallelGCThreads=12" - Sets the maximum logical processors (threads) the Java application (in this case, it's Minecraft) can use; my CPU has 12 threads, so I set it to 12.
+- "-XX:ParallelGCThreads=12" - Sets the maximum logical processors (threads) the Java application (in this case, it's Minecraft) can use; my CPU has 12 threads, so I set it to 12. You can find yours in the Performance tab of Task Manager.
 
 # Notes :
 - If it crashes, first try disabling Connected Textures in Minecraft's video settings before deleting any arguments.
