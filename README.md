@@ -10,7 +10,7 @@
 - `-XX:ParallelGCThreads=12` - Sets the maximum logical processors (threads) the Java application (Minecraft) can use; my CPU has 12 threads, so I set it to 12. You can find yours in the Performance tab of Task Manager.
 
 # Notes :
-- If it crashes, first try disabling Connected Textures in Minecraft's video settings before deleting any arguments.
+- If it crashes, first try disabling `Connected Textures` in Minecraft's video settings before deleting any arguments.
 - Please keep in mind that some arguments may cause your client to crash depending on your PC specifications (and maybe your Minecraft version?) and you may have to experiment around with changing some values or even deleting some of them in order for it to work.
 - I have seen the `-Xmn` argument being used in other Minecraft FPS boosting JVM arguments but I do not use it because by default `-Xmn` is selected internally according to your system's capabilities.
 - I have also seen `-XX:+UseCompressedOops` being used but it is only available for and already enabled automatically on 64-bit programs.
