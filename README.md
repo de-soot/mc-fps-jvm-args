@@ -27,5 +27,5 @@ JVM arguments that you can use in your launcher to increase your Minecraft perfo
 
 #
 
-## Analytics
-![Alt](https://repobeats.axiom.co/api/embed/e28e426f1ba5e497bda1f10e45d7fb58d09587b9.svg "Repobeats analytics image")
+<h3 align="center">Analytics</h3>
+<p align="center"><img src="https://repobeats.axiom.co/api/embed/e28e426f1ba5e497bda1f10e45d7fb58d09587b9.svg" alt="Repobeats analytics image"/></p>
