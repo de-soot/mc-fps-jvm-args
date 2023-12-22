@@ -24,8 +24,3 @@ JVM arguments that you can use in your launcher to increase your Minecraft perfo
 - Please keep in mind that some arguments may cause your client to crash depending on your PC specifications (and maybe your Minecraft version?) and you may have to experiment around with changing some values or even deleting some of them in order for it to work.
 - I have seen the `-Xmn` argument being used in other Minecraft FPS boosting JVM arguments but I do not use it because by default `-Xmn` is selected internally according to your system's capabilities.
 - I have also seen `-XX:+UseCompressedOops` being used, but it is only available for and already automatically enabled on 64-bit programs.
-
-#
-
-<h3 align="center">Analytics</h3>
-<p align="center"><img src="https://repobeats.axiom.co/api/embed/e28e426f1ba5e497bda1f10e45d7fb58d09587b9.svg" alt="Repobeats analytics image"/></p>
