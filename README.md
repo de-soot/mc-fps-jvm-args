@@ -1,5 +1,4 @@
 # Minecraft FPS-Boosting JVM Arguments
-
 JVM arguments that you can use in your launcher to increase your Minecraft performance. Originally made for people like me who want to run Minecraft with their low-end potatoes, but it can also work for those with access to higher-end PCs - though the results may be diminished.
 
 ## JVM Args for my PC
@@ -8,7 +7,6 @@ JVM arguments that you can use in your launcher to increase your Minecraft perfo
 ```
 
 ### Adjust these arguments to better suit your PC
-
 - `-d64` makes the Java application (Minecraft) run as a 64-bit program, which allows it to use the capabilities of 64-bit machines; only use this if your operating system is 64-bit (x64) and not 32-bit (x86), otherwise, remove this parameter as Java sets this for 32-bit by default.
 - `-Xmx 6G` sets the maximum allocated RAM of the Java application (Minecraft) to 6 GB; you should always leave at least 1 GB left over (2 GB is highly recommended if it is available, which is what I did for my 8 GB RAM PC) for your system.
 - `-Xms 6G` sets the initial allocated RAM of Minecraft to 6 GB; this value should be the same as the maximum allocated RAM to reduce amount of garbage collection the program has to do.
