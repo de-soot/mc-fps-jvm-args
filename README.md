@@ -1,4 +1,4 @@
-# Minecraft FPS Boosting JVM Arguments
+# Minecraft FPS-Boosting JVM Arguments
 
 JVM arguments that you can use in your launcher to increase your Minecraft performance. Originally made for people like me who want to run Minecraft with their low-end potatoes, but it can also work for those with access to higher-end PCs - though the results may be diminished.
 
