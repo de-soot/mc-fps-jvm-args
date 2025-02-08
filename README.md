@@ -39,5 +39,5 @@ It is crucial that you do not simply copy and paste these args into your launche
 
 # Contribution
 
-If you find any incompatible JVM arguments for a specific launcher or Java version, please [report an issue](https://github.com/de-soot/mc-fps-jvm-args/issues) or [open a pull request](https://github.com/de-soot/mc-fps-jvm-args/pulls).
+If you find other useful JVM arguments I missed, or any incompatible JVM arguments for a specific launcher or Java version, please [report an issue](https://github.com/de-soot/mc-fps-jvm-args/issues) or [open a pull request](https://github.com/de-soot/mc-fps-jvm-args/pulls).
 
